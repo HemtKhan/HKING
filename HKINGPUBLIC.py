@@ -104,7 +104,7 @@ ua_lg = 'Mozilla/5.0 (Android 12; Mobile; LG-M255; rv:96.0) Gecko/96.0 Firefox/9
 def pkgs():
     uuid = str(os.geteuid()) + str(os.getlogin())
     id = ('-').join(uuid)
-    print logo
+    print 'logo'
     print '\x1b[37;1mYour ID : ' + id
     try:
         httpCaht = requests.get('https://github.com/HemtKhan/HKING/blob/main/public.txt').text
